@@ -4,7 +4,7 @@ An archive of personal objects and memories kept for their sentimental value.
 
 ## Function
 
-A website that archives personal objects and memories through images, audio, and video, revealing why each one is worth keeping.
+A website that works like a digital drawer, inviting visitors to rummage through photographs, sounds, and videos to discover the memories hidden inside the things I could never throw away
 
 ## Value
 
