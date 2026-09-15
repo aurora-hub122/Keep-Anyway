@@ -1,16 +1,29 @@
-# Keep-Anyway
-An archive of objects kept for their sentimental value.
+# Keep Anyway
+
+An archive of personal objects and memories kept for their sentimental value.
 
 ## Function
 
-A website that archives some objects I cannot throw away and reveals the memory that gives each one sentimental value.
+A website that archives personal objects and memories through images, audio, and video, revealing why each one is worth keeping.
 
 ## Value
 
-Sentimental value — the idea that an object can remain valuable because of memory and emotional attachment, even when it has little practical or monetary worth.
+Sentimental value — the idea that something can remain valuable because of memory and emotional attachment, even when it has little practical or monetary worth.
+
+This project gives attention to personal objects and moments that may appear ordinary, outdated, or useless to other people. Instead of measuring their value through price, popularity, or usefulness, the website preserves the memories and emotions connected to them.
 
 ## Materials
 
-This repository contains photographs and written notes about some personal objects that I have chosen to keep.
+The materials in this repository include:
 
-All photographs and written materials were created by myself.
+- Photographs of personal objects and meaningful moments
+- Audio connected to specific memories
+- Video recordings that document meaningful people, places, objects, or experiences
+- Written notes explaining the story behind each piece
+
+## Folder Structure
+
+- `assets/images` — photographs and other visual materials
+- `assets/audio` — music, sound recordings, and other audio materials
+- `assets/video` — video recordings materials
+
