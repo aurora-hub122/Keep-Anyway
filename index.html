@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="An interactive archive that reveals the overlooked stories hidden inside ordinary objects."
+    />
+    <title>The Drawer — An Archive of Ordinary Things</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23211610'/%3E%3Cpath d='M12 20h40v27H12z' fill='%23865032' stroke='%23e7c58f' stroke-width='3'/%3E%3Ccircle cx='32' cy='34' r='5' fill='%23e7c58f'/%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Return to the drawer">
+        <span>THE</span>
+        <strong>DRAWER</strong>
+      </a>
+
+      <nav aria-label="Project links">
+        <a href="assets/part1-concept.txt" target="_blank">Part 1 concept</a>
+        <a href="assets/part1-object-list.txt" target="_blank">Object list</a>
+        <a href="wireframe.jpg" target="_blank">Wireframe</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="intro" aria-labelledby="page-title">
+        <p class="kicker">An archive of ordinary things</p>
+        <h1 id="page-title">Some objects keep more than dust.</h1>
+        <p class="intro-copy">
+          Open the drawer. Choose something that looks familiar. Listen to the
+          story it has been holding.
+        </p>
+      </section>
+
+      <section class="archive" id="drawer" aria-label="Interactive memory drawer">
+        <details class="drawer-frame">
+          <summary class="drawer-front">
+            <span class="drawer-label">PRIVATE / MISC.</span>
+            <span class="drawer-handle" aria-hidden="true"></span>
+            <span class="drawer-action">Pull to open</span>
+          </summary>
+
+          <div class="drawer-shadow" aria-hidden="true"></div>
+
+          <div class="drawer-inside">
+            <img
+              src="assets/drawer-keepsakes.png"
+              alt="Inside a wooden drawer: an old key, a train ticket, a cassette tape, and an instant photograph"
+            />
+
+            <a class="object-hotspot object-hotspot--key" href="#story-key" aria-label="Read the story of the old key"><span>Old key</span></a>
+            <a class="object-hotspot object-hotspot--ticket" href="#story-ticket" aria-label="Read the story of the train ticket"><span>Train ticket</span></a>
+            <a class="object-hotspot object-hotspot--cassette" href="#story-cassette" aria-label="Read the story of the cassette tape"><span>Cassette tape</span></a>
+            <a class="object-hotspot object-hotspot--photo" href="#story-photo" aria-label="Read the story of the faded photograph"><span>Faded photo</span></a>
+          </div>
+        </details>
+
+        <p class="interaction-hint">
+          <span class="hint-closed">Click the drawer handle to begin.</span>
+          <span class="hint-open">Choose an object to reveal its story.</span>
+        </p>
+      </section>
+    </main>
+
+    <section class="story-dialog" id="story-key" role="dialog" aria-modal="true" aria-labelledby="story-key-title">
+      <div class="story-layout">
+        <a class="dialog-close" href="#drawer" aria-label="Close story">×</a>
+        <figure class="story-image" aria-hidden="true">
+          <span class="story-icon">🗝️</span>
+          <figcaption>Sample image treatment / replace with your photo</figcaption>
+        </figure>
+        <article class="story-copy">
+          <p class="story-number">Object 01 / Metal</p>
+          <h2 id="story-key-title">The key that opens nothing</h2>
+          <p class="story-lede">Its lock disappeared years ago. The permission it represented did not.</p>
+          <div class="story-divider" aria-hidden="true"></div>
+          <p>This key was kept in the back of a sewing drawer, wrapped in a grocery receipt. No one remembers which door it opened. What remains is the habit of saving it — a small promise that the place might still exist somewhere.</p>
+          <dl class="story-details">
+            <div><dt>Found</dt><dd>A sewing drawer</dd></div>
+            <div><dt>Value</dt><dd>Unknown / remembered</dd></div>
+          </dl>
+          <p class="draft-note">Draft story — replace with your own memory and photograph.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="story-dialog" id="story-ticket" role="dialog" aria-modal="true" aria-labelledby="story-ticket-title">
+      <div class="story-layout">
+        <a class="dialog-close" href="#drawer" aria-label="Close story">×</a>
+        <figure class="story-image" aria-hidden="true">
+          <span class="story-icon">🎟️</span>
+          <figcaption>Sample image treatment / replace with your photo</figcaption>
+        </figure>
+        <article class="story-copy">
+          <p class="story-number">Object 02 / Paper</p>
+          <h2 id="story-ticket-title">One unused ticket</h2>
+          <p class="story-lede">A journey can matter even when it never happens.</p>
+          <div class="story-divider" aria-hidden="true"></div>
+          <p>The date has faded, but the destination is still readable. The ticket was bought for a trip that was postponed once, then indefinitely. It became less a piece of transportation than a record of an imagined future.</p>
+          <dl class="story-details">
+            <div><dt>Found</dt><dd>Inside an old paperback</dd></div>
+            <div><dt>Value</dt><dd>$4.20 / one possibility</dd></div>
+          </dl>
+          <p class="draft-note">Draft story — replace with your own memory and photograph.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="story-dialog" id="story-cassette" role="dialog" aria-modal="true" aria-labelledby="story-cassette-title">
+      <div class="story-layout">
+        <a class="dialog-close" href="#drawer" aria-label="Close story">×</a>
+        <figure class="story-image" aria-hidden="true">
+          <span class="story-icon">📼</span>
+          <figcaption>Sample image treatment / replace with your photo</figcaption>
+        </figure>
+        <article class="story-copy">
+          <p class="story-number">Object 03 / Magnetic tape</p>
+          <h2 id="story-cassette-title">A voice under the static</h2>
+          <p class="story-lede">The recording is damaged. The pause before the first word is perfectly clear.</p>
+          <div class="story-divider" aria-hidden="true"></div>
+          <p>Side A begins with room noise, a chair scraping, and someone trying not to laugh. Most of the song has warped with time. The ordinary sounds around it are what make the tape impossible to throw away.</p>
+          <dl class="story-details">
+            <div><dt>Found</dt><dd>A box labeled “misc.”</dd></div>
+            <div><dt>Value</dt><dd>60 minutes / one voice</dd></div>
+          </dl>
+          <p class="draft-note">Draft story — replace with your own memory and photograph.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="story-dialog" id="story-photo" role="dialog" aria-modal="true" aria-labelledby="story-photo-title">
+      <div class="story-layout">
+        <a class="dialog-close" href="#drawer" aria-label="Close story">×</a>
+        <figure class="story-image" aria-hidden="true">
+          <span class="story-icon">🌄</span>
+          <figcaption>Sample image treatment / replace with your photo</figcaption>
+        </figure>
+        <article class="story-copy">
+          <p class="story-number">Object 04 / Photograph</p>
+          <h2 id="story-photo-title">The person outside the frame</h2>
+          <p class="story-lede">The photograph shows a place. The fingerprints show who carried it.</p>
+          <div class="story-divider" aria-hidden="true"></div>
+          <p>The landscape is carefully centered, but the back contains a hurried note addressed to someone who is never named. The image records a sunset; the worn corners record all the times it was shown to another person.</p>
+          <dl class="story-details">
+            <div><dt>Found</dt><dd>Between two cabinet shelves</dd></div>
+            <div><dt>Value</dt><dd>One exposure / many retellings</dd></div>
+          </dl>
+          <p class="draft-note">Draft story — replace with your own memory and photograph.</p>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <p>Undervalued Value — Part 2 working prototype</p>
+      <p>Built with HTML + CSS only</p>
+    </footer>
+  </body>
+</html>
